@@ -22,4 +22,17 @@ function aumentaTamanho() {
     numeroSenha.textContent = tamanhoSenha;
 }
 
-console.log(botoes);
+const campoSenha = .queryselector('#campo-senha');
+
+const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+funcion gerarSenha(){
+    let senha = ' ';
+    for (let i = 0; i< tamanhoSenha;i++){
+        let numeroaleatorio = Mach.random()*letrasMaiusculas.lenght;
+        numeroAleatorio = Mach.floor(numeroAleatorio);
+        senha = senha + letraMaiusculas[numeroAleatorio];
+    }
+
+campoSenha.value = letrasMaiusculas;
+}
