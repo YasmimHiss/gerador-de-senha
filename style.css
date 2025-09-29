@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+
 :root {
     --branco: white;
     --cor-de-fundo: #00162E;
@@ -117,39 +118,38 @@ label {
     cursor: pointer;
 }
 
-.barra{
-    background-color: var(--fundo-senha)
+.barra {
+    background-color: var(--fundo-senha);
     height: 30px;
     width: 100%;
 }
 
-.fraca{
+.forca {
     height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+.fraca {
     width: 25%;
     background-color: #E71B32;
-    position: relative;
-    bottom: 30px;
 }
 
-.média{
-     height: 30px;
-    width: 50%;
+.media {
     background-color: #FAF408;
-    position: relative;
-    bottom: 30px;
+    width: 50%;
 }
 
-.forte{
-     height: 30px;
-    width: 100%;
+.forte {
     background-color: #00FF85;
-    position: relative;
-    bottom: 30px;
+    width: 100%;
 }
-    .parametro-senha-textos{
-        display: flex;
-        justfly-content: space between;
-    
+
+.parametro-senha-textos {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha {
